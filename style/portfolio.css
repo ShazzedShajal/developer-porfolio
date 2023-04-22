@@ -107,7 +107,7 @@ header p {
 main {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: rgb(0, 255, 30);
+    /* background-color: rgb(32, 144, 49); */
     padding-top: 1px;
     padding-bottom: 1px;
 
@@ -156,5 +156,211 @@ main {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    color: #474747; 
+    color: #474747;
+}
+
+/* what i do - Section */
+.what-i-do {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.what-i-do h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #181818;
+
+    margin-top: 130px;
+
+}
+
+.what-i-do .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #757575;
+    margin-top: 30px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+
+}
+
+.skills img {
+    margin-top: 30px;
+
+}
+
+.skills {
+    text-align: left;
+    margin: 0 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.skills .skill-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skills .skill-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* resume */
+.resume {
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+.resume .resume_details {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 113px;
+
+}
+
+.resume .resume_details .my_eduaction {
+    margin-right: 24px;
+}
+
+.resume .headline {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #181818;
+
+    margin-top: 130px;
+    /* margin-bottom: 113px; */
+}
+
+.resume .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    /* Dark 02 */
+
+    color: #474747;
+
+
+}
+
+.resume h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+
+    /* Dark 02 */
+
+    color: #474747;
+    margin-top: 30px;
+
+
+}
+
+.resume h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    /* Dark 03 */
+
+    color: #757575;
+    margin-top: 10px;
+}
+
+.resume h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* or 175% */
+
+
+    /* Dark 03 */
+
+    color: #757575;
+    margin-top: 20px;
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+}
+
+.Download_CV {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* footer */
+.Contact {
+    display: flex;
+    padding: 130px 230px;
+    background: #FFF8F3;
+    gap: 100px;
+}
+
+.Contact h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    /* Dark 01 */
+
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.lets_connect p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* Dark 02 */
+
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.Contact form{
+    display: block;
+}
+
+.Contact input{
+    height: 64px;
+}
+
+.Contact input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
 }
